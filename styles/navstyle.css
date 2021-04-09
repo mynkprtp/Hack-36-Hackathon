@@ -33,10 +33,10 @@ filter: invert();
 }
 nav .logo {
   font-family: cursive;
-  margin-right: 10px;
   font-weight: 600;
   font-size: 25px;
   float: right;
+  margin-right: 20px;
 
 }
 nav div .animation {
