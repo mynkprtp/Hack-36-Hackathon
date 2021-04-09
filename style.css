@@ -1,0 +1,37 @@
+body{
+    overflow: auto;
+    background: linear-gradient(to bottom, #e2e2e2, #ffffff);
+    font-family:Tahoma;
+    font-size:15px;
+    background-image: url("https://atheistiran.com/wp-content/uploads/2020/03/people-mask.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+ 
+  h1{
+    text-align:center;
+    font-size:3em;
+    color:rgb(32, 23, 23);
+    text-shadow: 0px 1px 2px #000;
+  }
+  
+  
+  .animatediv{
+    animation: MoveUpDown 10s linear infinite;
+    position: absolute;
+    right: 00px;
+    }
+
+  @keyframes MoveUpDown {
+    0%, 100% {
+      right: 30%;
+    }
+    50% {
+      right: 20%;
+    }
+  }
+
+  
