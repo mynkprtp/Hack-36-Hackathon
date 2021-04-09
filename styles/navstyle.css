@@ -7,6 +7,7 @@ nav {
   border-radius: 8px;
   font-size: 0;
   display: flex;
+  width: 100%;
   justify-content: space-between;
 }
 nav a {
@@ -22,14 +23,14 @@ nav a {
   color: white;
   cursor: pointer;
 }
-img{
+nav img{
 margin-left: 440px;
 }
 nav .logo {
   margin: 0 50px;
   font-weight: 600;
   font-size: 25px;
-  left: -60px;
+  left: -70px;
 }
 nav div .animation {
   position: absolute;
