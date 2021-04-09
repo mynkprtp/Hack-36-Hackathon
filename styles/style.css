@@ -23,7 +23,7 @@ body {
 }
 
 .animatediv {
-  animation: MoveUpDown 20s linear infinite;
+  animation: MoveUpDown 12s linear infinite;
   position: absolute;
   left: 10px;
   opacity: 0.9;
