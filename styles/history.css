@@ -1,12 +1,31 @@
 html {
-
-  background-image: linear-gradient(rgba(0, 0, 255, 0.4), rgba(255, 255, 0, 0.2)),
-                  url("https://xvivo.com/app/uploads/2020/05/COVID19_1920x1200.jpg");
+  background-image: linear-gradient(
+      rgba(0, 0, 255, 0.4),
+      rgba(255, 255, 0, 0.2)
+    ),
+    url("https://xvivo.com/app/uploads/2020/05/COVID19_1920x1200.jpg");
   background-size: cover;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+.quer {
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.black_death {
+  background-image: url("../images/black-death.jpg");
+}
+.spanish_flu {
+  background-image: url("../images/1918-spanish-flu.jpg");
+}
+.small_pox {
+  background-image: url("../images/small-pox.jpg");
+}
+.hiv_aids {
+  background-image: url("../images/hiv-aids.png");
 }
 .card-holder {
   display: flex;
@@ -43,12 +62,4 @@ html {
   color: darkorange;
   font-size: 2.3em;
   display: block;
-}
-#occur {
-  color: darkgoldenrod;
-  font-size: 2em;
-}
-#prevention {
-  color: #fff;
-  font-size: 2.3em;
 }
