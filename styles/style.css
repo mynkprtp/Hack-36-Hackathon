@@ -1,36 +1,39 @@
-body{
-    overflow: auto;
-    background: linear-gradient(to bottom, #e2e2e2, #ffffff);
-    font-family:Tahoma;
-    font-size:15px;
-    background-image: url("https://atheistiran.com/wp-content/uploads/2020/03/people-mask.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
-  
- 
-  #coronagif{
-      margin-top: 50px;
-      height: 10rem;
-      width: 9rem;
-  }
-  
-  .animatediv{
-    animation: MoveUpDown 20s linear infinite;
-    position: absolute;
-    left: 10px;
-opacity: 0.9;
-    }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: auto;
+  background: linear-gradient(to bottom, #e2e2e2, #ffffff);
+  font-family: Tahoma;
+  font-size: 15px;
+  background-image: url("https://atheistiran.com/wp-content/uploads/2020/03/people-mask.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
-  @keyframes MoveUpDown {
-    0%, 100% {
-      top: 30%;
-    }
-    50% {
-      top: 20%;
-    }
-  }
+#coronagif {
+  margin-top: 50px;
+  height: 10rem;
+  width: 9rem;
+}
 
-  
+.animatediv {
+  animation: MoveUpDown 20s linear infinite;
+  position: absolute;
+  left: 10px;
+  opacity: 0.9;
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    top: 30%;
+  }
+  50% {
+    top: 20%;
+  }
+}
