@@ -21,7 +21,7 @@ body{
     animation: MoveUpDown 20s linear infinite;
     position: absolute;
     left: 10px;
-
+opacity: 0.9;
     }
 
   @keyframes MoveUpDown {
