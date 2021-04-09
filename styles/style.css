@@ -23,6 +23,7 @@ body{
     animation: MoveUpDown 10s linear infinite;
     position: absolute;
     right: 00px;
+    opacity: 0.7;
     }
 
   @keyframes MoveUpDown {
