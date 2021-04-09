@@ -1,12 +1,11 @@
 nav {
-  margin: -7px;
-  position: relative;
+  margin: -7px 0 7px 0;
+  position: fixed;
   /* width: 100%; */
   height: 60px;
   background-color:rgba(72, 72, 72, .5);
   border-radius: 8px;
   font-size: 0;
-  display: flex;
   width: 100%;
   justify-content: space-between;
 }
@@ -24,13 +23,21 @@ nav a {
   cursor: pointer;
 }
 nav img{
-margin-left: 440px;
+  margin: 10px;
+width: 3%;
+height: 3%;
+float: right;
+image-rendering: optimizeQuality;
+filter: invert();
+
 }
 nav .logo {
-  margin: 0 50px;
+  font-family: cursive;
+  margin-right: 10px;
   font-weight: 600;
   font-size: 25px;
-  left: -70px;
+  float: right;
+
 }
 nav div .animation {
   position: absolute;
