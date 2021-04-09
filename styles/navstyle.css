@@ -10,7 +10,7 @@ nav {
   justify-content: space-between;
 }
 nav a {
-  line-height: 50px;
+  line-height: 60px;
   height: 100%;
   font-size: 15px;
   display: inline-block;
@@ -21,6 +21,9 @@ nav a {
   text-align: center;
   color: white;
   cursor: pointer;
+}
+img{
+margin-left: 440px;
 }
 nav .logo {
   margin: 0 50px;
