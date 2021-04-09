@@ -1,3 +1,13 @@
+var input = document.getElementById("country");
+
+input.addEventListener("keyup", function(event) {
+
+  if (event.keyCode === 13) {
+
+getData();
+  }
+});
+
 document.getElementById("stats2").disabled = true;
 document.getElementById("stats1").disabled = true;
 document.getElementById("stats4").disabled = true;
