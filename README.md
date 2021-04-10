@@ -74,5 +74,5 @@ After submission of Details our will send you a mail which will contain the deta
 
 
 ```diff
-@@ Feel free to contact us for PRs and Improvements in this project. @@
+@@ Feel free smiley: to contact us for PRs and Improvements in this project. @@
 
