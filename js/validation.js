@@ -8,6 +8,7 @@ var mobile=document.getElementById('mobile').value;
 
 var atposition=email.indexOf("@");  
 var dotposition=email.lastIndexOf(".");  
+window.location.href = "../components.modal.html";
 if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
   alert("Please enter a valid e-mail address");  
   return false;  
@@ -32,4 +33,8 @@ else if(pin==null || pin==""){
   alert("Enter State");  
   return false;  
   }  
+
+
+
+
 }  
