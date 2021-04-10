@@ -18,13 +18,11 @@ After submission of Details our will send you a mail which will contain the deta
 
 <h3 align="left"> Team Name : > Wemb Develomper</h3> 
 
-I think you should use an
-`<addr>` element here instead.
 
 <h3 align="left">Team Members : </h3> 
 
- -  [Vijay Gupta](https://github.com/vijaygupta18)
- -  [Mayank Pratap](https://github.com/mynkprtp)
+ >  [Vijay Gupta](https://github.com/vijaygupta18)
+ >  [Mayank Pratap](https://github.com/mynkprtp)
 
 
 ##  [Click here to visit the site](https://pandemicure.herokuapp.com/)
