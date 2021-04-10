@@ -1,5 +1,7 @@
 # Hack-36-Hackathon
 
+
+
 ##  [Click here to visit the site](https://pandemicure.herokuapp.com/)
 
 
@@ -18,13 +20,13 @@ After submission of Details our will send you a mail which will contain the deta
 
 ## Details required from PERSON:
 
-1: Person's Name
++ Person's Name
 
-2: Person's Email
++ Person's Email
 
-3: Complete Address
++ Complete Address
 
-4: Phone Number
++ Phone Number
 
 ## How it Works:
 
@@ -58,7 +60,6 @@ C: If Details found then System will Send a mail to user which contains details 
 ![Contact](images/5.JPG)
 
 
-
-
-## Feel free to contact us for PRs and Improvements in this project.
+```diff
+@@ Feel free to contact us for PRs and Improvements in this project. @@
 
