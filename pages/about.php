@@ -10,7 +10,7 @@
         
     </head>
     <body>
-    <?php include_once("nav.html"); ?>
+    <?php include_once("../components/nav.html"); ?>
         <br><br><br><br>
         <div class="card-holder">
             <div class="card quer">
