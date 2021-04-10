@@ -54,24 +54,23 @@ After submission of Details our system/team will send you a mail which will cont
 
 ## Website Contains :
 
-#### 1: Homepaage which will have the submission details.
-<br>
+#### *1: Homepaage which will have the submission details.*
 
 ![Homepage](images/1.JPG)
 
-#### 2: About Pandemic,Cure and Precautions.
+#### *2: About Pandemic,Cure and Precautions.*
 
 ![About](images/2.JPG)
 
-#### 3: History of all the Pandemics and how we overcame that pandemic.
+#### *3: History of all the Pandemics and how we overcame that pandemic.*
 
 ![History](images/3.JPG)
 
-#### 4: Covid-19 Stats of different countries and states.
+#### *4: Covid-19 Stats of different countries and states.*
 
 ![Covid stats](images/4.JPG)
 
-#### 5: Contact page for queries regarding services and support.
+#### *5: Contact page for queries regarding services and support.*
 
 ![Contact](images/5.JPG)
 
