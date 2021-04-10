@@ -1,5 +1,7 @@
 # Hack-36-Hackathon
 
+<span class="anim-fade-in"><%= octicon("mark-github", :height => 32, :class => "v-align-middle mr-2") %> Hello from GitHub!</span>
+
 ##  [Click here to visit the site](https://pandemicure.herokuapp.com/)
 
 
