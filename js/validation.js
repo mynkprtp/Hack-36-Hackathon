@@ -11,28 +11,22 @@ var dotposition=email.lastIndexOf(".");
 window.location.href = "../components.modal.html";
 if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
   alert("Please enter a valid e-mail address");  
-  return false;  
   }  
-if (name==null || name==""){  
-  alert("Name can't be blank");  
-  return false;  
-}
+
 else if(mobile.length<10){  
-  alert("Enter valid Number");  
-  return false;  
+  alert("Enter valid Number");    
   }  
 else if(city==null || city==""){  
   alert("Enter City");  
-  return false;  
   }  
-else if(state==null || state==""){  
-  alert("Enter State");  
-  return false;  
-  }  
-else if(pin==null || pin==""){  
-  alert("Enter State");  
-  return false;  
-  }  
+ 
+
+
+  else if(mobile.length>=10 && name!=null && address!=null){
+
+    window.location.href = "http://net-informations.com";
+
+  }
 
 
 
