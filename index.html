@@ -1,207 +1,30 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PandemiCure</title>
-    <link rel="icon" href="https://www.flaticon.com/premium-icon/icons/svg/2853/2853896.svg" type="image/x-icon">
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-<style>
-
-:root {
-  --effect: hover 1s linear infinite;
-}
-*{
-   margin:0;
-}
-
-
-
-#loader {
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  background: black;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-p {
-  display: inline-block;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 4em;
-  font-family: arial;
-  font-weight: 600;
-  transform: scale(.5);
-  color: #121212;
-  -webkit-text-stroke: 2px gray;
-}
-
-p:nth-child(1) {
-  animation: var(--effect);
-}
-
-p:nth-child(2) {
-  animation: var(--effect) .125s;
-}
-
-p:nth-child(3) {
-  animation: var(--effect) .25s;
-}
-
-p:nth-child(4) {
-  animation: var(--effect) .375s;
-}
-
-p:nth-child(5) {
-  animation: var(--effect) .5s;
-}
-
-p:nth-child(6) {
-  animation: var(--effect) .675s;
-}
-
-p:nth-child(7) {
-  animation: var(--effect) .75s;
-}
-
-@keyframes hover {
-  0% {
-    transform: scale(.5);
-    color: #121212;
-    -webkit-text-stroke: 2px gray;
-  }
-
-  20% {
-    transform: scale(1);
-    color: pink;
-    -webkit-text-stroke: 3px red;
-    filter: drop-shadow(0 0 1px black)drop-shadow(0 0 1px black)drop-shadow(0 0 3px red)drop-shadow(0 0 5px red)hue-rotate(10turn);
-  }
-
-  50% {
-    transform: scale(.5);
-    color: #121212;
-    -webkit-text-stroke: 2px gray;
-  }
-
-
-}
-
-body {
-	font-family: 'Varela Round', sans-serif;
-}
-.modal-confirm {		
-	color: #434e65;
-	width: 525px;
-}
-.modal-confirm .modal-content {
-	padding: 20px;
-	font-size: 16px;
-	border-radius: 5px;
-	border: none;
-}
-.modal-confirm .modal-header {
-	background: #47c9a2;
-	border-bottom: none;   
-	position: relative;
-	text-align: center;
-	margin: -20px -20px 0;
-	border-radius: 5px 5px 0 0;
-	padding: 35px;
-}
-.modal-confirm h4 {
-	text-align: center;
-	font-size: 36px;
-	margin: 10px 0;
-}
-.modal-confirm .form-control, .modal-confirm .btn {
-	min-height: 40px;
-	border-radius: 3px; 
-}
-.modal-confirm .close {
-	position: absolute;
-	top: 15px;
-	right: 15px;
-	color: #fff;
-	text-shadow: none;
-	opacity: 0.5;
-}
-.modal-confirm .close:hover {
-	opacity: 0.8;
-}
-.modal-confirm .icon-box {
-	color: #fff;		
-	width: 95px;
-	height: 95px;
-	display: inline-block;
-	border-radius: 50%;
-	z-index: 9;
-	border: 5px solid #fff;
-	padding: 15px;
-	text-align: center;
-}
-.modal-confirm .icon-box i {
-	font-size: 64px;
-	margin: -4px 0 0 -4px;
-}
-.modal-confirm.modal-dialog {
-	margin-top: 80px;
-}
-.modal-confirm .btn, .modal-confirm .btn:active {
-	color: #fff;
-	border-radius: 4px;
-	background: #eeb711 !important;
-	text-decoration: none;
-	transition: all 0.4s;
-	line-height: normal;
-	border-radius: 30px;
-	margin-top: 10px;
-	padding: 6px 20px;
-	border: none;
-}
-.modal-confirm .btn:hover, .modal-confirm .btn:focus {
-	background: #eda645 !important;
-	outline: none;
-}
-.modal-confirm .btn span {
-	margin: 1px 3px 0;
-	float: left;
-}
-.modal-confirm .btn i {
-	margin-left: 1px;
-	font-size: 20px;
-	float: right;
-}
-.trigger-btn {
-	display: inline-block;
-	margin:auto;
-  padding: 6px 20px;
-  border-radius: 20px;
-  background: rgb(137, 215, 235);
-  border: 2px solid #FAB87F;
-  color: #301803;
-  font-weight: 800;
-  transition: all .5s;
-  margin-top: 1em;
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PandemiCure</title>
+  <link rel="icon" href="https://www.flaticon.com/premium-icon/icons/svg/2853/2853896.svg" type="image/x-icon">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./styles/loader.css">
+  <link rel="stylesheet" href="./styles/modal.css">
+  <style>
   
-}
-</style>
-  
-    </script>
+  </style>
+
+  </script>
 </head>
+
 <body onload="stop()">
 
   <div id="loader">
@@ -213,52 +36,61 @@ body {
     <p>n</p>
     <p>g</p>
   </div>
-  
+
   <div id="navbar"></div>
-  
-<?php include_once("./components/nav.html"); ?>
+
+  <?php include_once("./components/nav.html"); ?>
   <br><br><br><br>
 
-    <div class="animatediv">
-        <img id="coronagif" src="https://atheistiran.com/wp-content/uploads/2020/03/corona-virus.png">
-    </div>
-    <div class="log">
-    <a class="login-trigger" href="#" style="font-size: large;" data-target="#login" data-toggle="modal">I'm Infected</a>
+  <div class="animatediv">
+    <img id="coronagif" src="https://atheistiran.com/wp-content/uploads/2020/03/corona-virus.png">
+  </div>
+  <div class="log">
+    <a class="login-trigger" href="#" style="font-size: large;" data-target="#login" data-toggle="modal">I'm
+      Infected</a>
 
     <div id="login" class="modal fade" role="dialog">
       <div class="modal-dialog">
-        
+
         <div class="modal-content">
           <div class="modal-body">
             <button data-dismiss="modal" class="close">&times;</button>
             <h2>Qurantine Me!!</h2>
-            <form action="form.php" method="post" >
-              <input type="text" name="email" class="username form-control" id="email" placeholder="Enter Your Email"/>
-              <span class="error"><?php echo $emailError;?></span>
-              <input type="text" name="name" class="username form-control" id="name" placeholder="Enter Your Name"/>
-              <span class="error"> <?php echo $nameErr;?></span>
-              <input type="tel" name="mobile" class="username form-control" id="mobile" placeholder="Enter Your Mobile Number"/>
-              <span class="error"> <?php echo $mobileError;?></span>
-              <input type="text" name="adress" class="username form-control" placeholder="Enter Your Full address"/>
-              <input type="number" name="duration" class="username form-control" placeholder="Number of days of being Infected"/>
-             <label for="Gender" style="float: left;">Gender: </label>
-             <input type="radio" name="gender" id="male" value="male" >
-              <label for="male">Male   </label>
+            <form action="form.php" method="post">
+              <input type="text" name="email" class="username form-control" id="email" placeholder="Enter Your Email" />
+              <span class="error">
+                <?php echo $emailError;?>
+              </span>
+              <input type="text" name="name" class="username form-control" id="name" placeholder="Enter Your Name" />
+              <span class="error">
+                <?php echo $nameErr;?>
+              </span>
+              <input type="tel" name="mobile" class="username form-control" id="mobile"
+                placeholder="Enter Your Mobile Number" />
+              <span class="error">
+                <?php echo $mobileError;?>
+              </span>
+              <input type="text" name="adress" class="username form-control" placeholder="Enter Your Full address" />
+              <input type="number" name="duration" class="username form-control"
+                placeholder="Number of days of being Infected" />
+              <label for="Gender" style="float: left;">Gender: </label>
+              <input type="radio" name="gender" id="male" value="male">
+              <label for="male">Male </label>
               <input type="radio" name="gender" id="female" value="female">
-              <label for="female">Female  </label>
+              <label for="female">Female </label>
               <input type="radio" name="gender" id="others" value="others">
-              <label for="others">Others   </label>
-  
-              <input type="text" name="City" class="username form-control" id="city" placeholder="City"/>
-              <input type="text" name="State" class="username form-control" id="state" placeholder="State"/>
-              <input type="tel" name="Pincode" class="username form-control" id="pin"placeholder="PinCode"/>
+              <label for="others">Others </label>
+
+              <input type="text" name="City" class="username form-control" id="city" placeholder="City" />
+              <input type="text" name="State" class="username form-control" id="state" placeholder="State" />
+              <input type="tel" name="Pincode" class="username form-control" id="pin" placeholder="PinCode" />
               <!-- <input type="password" name="password" class="password form-control" placeholder="password"/> -->
             </form>
             <div class="text-center">
-        
+
               <a href="#myModal" class="trigger-btn" data-toggle="modal">Submit</a>
             </div>
-            
+
             <!-- Modal HTML -->
             <div id="myModal" class="modal fade">
               <div class="modal-dialog modal-confirm">
@@ -270,34 +102,36 @@ body {
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                   </div>
                   <div class="modal-body text-center">
-                    <h4>Thank You!</h4>	
+                    <h4>Thank You!</h4>
                     <p>Your details have been saved successfully.</p>
                     <p>Our Team will contact you shortly</p>
-                    <button class="btn btn-success"  ><a href="./pages/history.html"><span style="font-size: medium; color: white;">Know More about Covid-19</span></a> <i class="material-icons">&#xE5C8;</i></button>
+                    <button class="btn btn-success"><a href="./pages/history.html"><span
+                          style="font-size: medium; color: white;">Know More about Covid-19</span></a> <i
+                        class="material-icons">&#xE5C8;</i></button>
                   </div>
                 </div>
               </div>
-            </div>     
+            </div>
           </div>
         </div>
-      </div>  
+      </div>
     </div>
   </div>
   <div id="modal"></div>
-    
+
 </body>
 
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script>
-    $(function(){
+  $(function () {
     $("#navbar").load("./components/nav.html");
   });
 
-  
-function stop() {
-  document.getElementById("loader").style.display = "none";
 
-}
+  function stop() {
+    document.getElementById("loader").style.display = "none";
+
+  }
 </script>
 
 <script src="./js/validation.js"></script>
@@ -307,5 +141,5 @@ function stop() {
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-</html>
 
+</html>
