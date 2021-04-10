@@ -11,7 +11,7 @@
   </head>
 </head>
 <body>
-  <div id='navbar'></div>
+<?php include_once("../components/nav.html"); ?>
   <br><br><br><br>
   <iframe id='fr'src="https://ourworldindata.org/grapher/total-cases-covid-19?tab=map" width="100%" height="500px"></iframe>
   

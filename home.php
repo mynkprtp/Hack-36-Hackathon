@@ -14,7 +14,7 @@
 <body>
 
 
-  <div id='navbar'></div>
+<?php include_once("./components/nav.html"); ?>
   <br><br><br><br>
 
     <div class="animatediv">
