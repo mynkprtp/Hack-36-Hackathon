@@ -28,12 +28,12 @@
           <div class="modal-body">
             <button data-dismiss="modal" class="close">&times;</button>
             <h2>Qurantine Me!!</h2>
-            <form action="form.php" method="GET">
-              <input type="text" name="email" class="username form-control" placeholder="Enter Your Email"/>
+            <form action="" method="">
+              <input type="text" name="email" class="username form-control" id="email" placeholder="Enter Your Email"/>
               <span class="error"><?php echo $emailError;?></span>
-              <input type="text" name="name" class="username form-control" placeholder="Enter Your Name"/>
+              <input type="text" name="name" class="username form-control" id="name" placeholder="Enter Your Name"/>
               <span class="error"> <?php echo $nameErr;?></span>
-              <input type="tel" name="mobile" class="username form-control" placeholder="Enter Your Mobile Number"/>
+              <input type="tel" name="mobile" class="username form-control" id="mobile" placeholder="Enter Your Mobile Number"/>
               <span class="error"> <?php echo $mobileError;?></span>
               <input type="text" name="adress" class="username form-control" placeholder="Enter Your Full address"/>
               <input type="number" name="duration" class="username form-control" placeholder="Number of days of being Infected"/>
@@ -45,11 +45,11 @@
               <input type="radio" name="gender" id="others" value="others">
               <label for="others">Others   </label>
   
-              <input type="text" name="City" class="username form-control" placeholder="City"/>
-              <input type="text" name="State" class="username form-control" placeholder="State"/>
-              <input type="tel" name="Pincode" class="username form-control" placeholder="PinCode"/>
+              <input type="text" name="City" class="username form-control" id="city" placeholder="City"/>
+              <input type="text" name="State" class="username form-control" id="state" placeholder="State"/>
+              <input type="tel" name="Pincode" class="username form-control" id="pin"placeholder="PinCode"/>
               <!-- <input type="password" name="password" class="password form-control" placeholder="password"/> -->
-              <input class="btn login" type="submit" value="Submit" />
+              <input class="btn login" type="submit" onclick="validate()" value="Submit" />
             </form>
           </div>
         </div>
@@ -65,6 +65,8 @@
     $("#navbar").load("./components/nav.html");
   });
 </script>
+
+<script src="./js/validation.js"></script>
 
 
 
