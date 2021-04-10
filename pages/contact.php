@@ -1,12 +1,7 @@
 <link rel="stylesheet" href="../styles/contact.css">
 <body>
  
-    <div id="navbar"></div>
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<script>
-    $(function(){
-    $("#navbar").load("../components/nav.html");
-  });</script>
+
   
   <br><br><br>
     <h3>Contact Us</h3>

@@ -11,13 +11,7 @@
     </head>
     <body>
     <?php include_once("../components/nav.html"); ?>
-    <div id="navbar"></div>
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<script>
-    $(function(){
-    $("#navbar").load("../components/nav.html");
-  });
-</script>
+  
         <br><br><br><br>
         <div class="card-holder">
             <div class="card quer black_death">
