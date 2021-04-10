@@ -19,8 +19,13 @@ After submission of Details our will send you a mail which will contain the deta
 ## Details required from PERSON:
 
 1: Person's Name
+
 2: Person's Email
+
 3: Complete Address
+
 4: Phone Number
+
+## How it Works:
 
 
