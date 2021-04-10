@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="icon" href="https://www.flaticon.com/premium-icon/icons/svg/2853/2853896.svg" type="image/x-icon">
     <link rel="stylesheet" href="../styles/stats.css">
-    <link rel="stylesheet" href="../styles/style.css">
 
   </head>
 </head>
