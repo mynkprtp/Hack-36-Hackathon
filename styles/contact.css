@@ -315,3 +315,9 @@ textarea:focus {
     width: 110px;
   }
 }
+
+#ok{
+  width: 960px;
+  height: 48px;
+  border-radius: 10px;
+}

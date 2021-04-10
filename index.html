@@ -27,7 +27,9 @@
 
 <body onload="stop()">
 
-  <div id="loader">
+  
+
+  <span id="loader">
     <p>l</p>
     <p>o</p>
     <p>a</p>
@@ -35,9 +37,9 @@
     <p>i</p>
     <p>n</p>
     <p>g</p>
-  </div>
-
+  </span>
   <div id="navbar"></div>
+ 
 
   <?php include_once("./components/nav.html"); ?>
   <br><br><br><br>
@@ -117,7 +119,7 @@
       </div>
     </div>
   </div>
-  <div id="modal"></div>
+  
 
 </body>
 
@@ -130,7 +132,6 @@
 
   function stop() {
     document.getElementById("loader").style.display = "none";
-
   }
 </script>
 
