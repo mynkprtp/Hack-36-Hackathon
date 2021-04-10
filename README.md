@@ -32,13 +32,13 @@ After submission of Details our will send you a mail which will contain the deta
 
 ###  Details required from PERSON:
 
-+ Person's Name
++ Person's Name :student:
 
-+ Person's Email
++ Person's Email :e-mail:
 
-+ Complete Address
++ Complete Address :house:
 
-+ Phone Number
++ Phone Number :iphone:
 
 ## How it Works :
 
@@ -72,8 +72,9 @@ After submission of Details our will send you a mail which will contain the deta
 
 ![Contact](images/5.JPG)
 
-smiley
+:smiley:
+
 
 ```diff
-@@ Feel free  to contact us for PRs and Improvements in this project. @@
+@@ Feel free :smiley:  to contact us for PRs and Improvements in this project. @@
 
