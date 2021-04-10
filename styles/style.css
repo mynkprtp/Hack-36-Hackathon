@@ -48,7 +48,7 @@ body {
 .login-trigger {
   font-weight: bold;
   color: #fff;
-  background: linear-gradient(to bottom right, #B05574, #e61815);
+  background: linear-gradient(to bottom right, #d61254, #e96d25);
   padding: 20px 40px;
   border-radius: 30px;
   position: relative; 
@@ -65,7 +65,9 @@ h2 {
   color: #fff;
   transform: scale(1.2)
 }
+
 .modal-content {
+  margin-top: 20%;
   font-weight: bold;
   background: linear-gradient(to bottom right,#e9a54b,#5593b0);
 }
@@ -78,7 +80,7 @@ h2 {
 }
 .username, .password {
   border: none;
-  border-radius: 0;
+  border-radius: 5px;
   box-shadow: none;
   border-bottom: 2px solid #eee;
   padding-left: 0;
