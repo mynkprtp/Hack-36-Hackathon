@@ -19,7 +19,7 @@
         <img id="coronagif" src="https://atheistiran.com/wp-content/uploads/2020/03/corona-virus.png">
     </div>
     <div class="log">
-    <a class="login-trigger" href="#" data-target="#login" data-toggle="modal">Login</a>
+    <a class="login-trigger" href="#" data-target="#login" data-toggle="modal">I'm Infected</a>
 
     <div id="login" class="modal fade" role="dialog">
       <div class="modal-dialog">
@@ -27,18 +27,27 @@
         <div class="modal-content">
           <div class="modal-body">
             <button data-dismiss="modal" class="close">&times;</button>
-            <h2>Login</h2>
-            <form>
-              <input type="text" name="username" class="username form-control" placeholder="Username"/>
-              <input type="text" name="username" class="username form-control" placeholder="Username"/>
-              <input type="text" name="username" class="username form-control" placeholder="Username"/>
-              <input type="text" name="username" class="username form-control" placeholder="Username"/>
-              <input type="text" name="username" class="username form-control" placeholder="Username"/>
-              <input type="text" name="username" class="username form-control" placeholder="Username"/>
-              <input type="text" name="username" class="username form-control" placeholder="Username"/>
-              <input type="text" name="username" class="username form-control" placeholder="Username"/>
-              <input type="password" name="password" class="password form-control" placeholder="password"/>
-              <input class="btn login" type="submit" value="Login" />
+            <h2>Qurantine Me!!</h2>
+            <h2>Qurantine Me!!</h2>
+            <form action="form.php" method="GET">
+              <input type="text" name="mail" class="username form-control" placeholder="Enter Your Email"/>
+              <input type="text" name="name" class="username form-control" placeholder="Enter Your Name"/>
+              <input type="tel" name="mobile" class="username form-control" placeholder="Enter Your Mobile Number"/>
+              <input type="text" name="adress" class="username form-control" placeholder="Enter Your Full address"/>
+              <input type="number" name="duration" class="username form-control" placeholder="Number of days of being Infected"/>
+             <label for="Gender" style="float: left;">Gender: </label>
+             <input type="radio" name="gender" id="male" value="male" >
+              <label for="male">Male   </label>
+              <input type="radio" name="gender" id="female" value="female">
+              <label for="female">Female  </label>
+              <input type="radio" name="gender" id="others" value="others">
+              <label for="others">Others   </label>
+  
+              <input type="text" name="City" class="username form-control" placeholder="City"/>
+              <input type="text" name="State" class="username form-control" placeholder="State"/>
+              <input type="tel" name="Pincode" class="username form-control" placeholder="PinCode"/>
+              <!-- <input type="password" name="password" class="password form-control" placeholder="password"/> -->
+              <input class="btn login" type="submit" value="Submit" />
             </form>
           </div>
         </div>

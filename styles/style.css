@@ -95,14 +95,14 @@ h2 {
 .login {
   padding: 6px 20px;
   border-radius: 20px;
-  background: none;
+  background: rgb(137, 215, 235);
   border: 2px solid #FAB87F;
-  color: #FAB87F;
-  font-weight: bold;
+  color: #301803;
+  font-weight: 800;
   transition: all .5s;
   margin-top: 1em;
 }
 .login:hover {
-  background: #FAB87F;
-  color: #fff;
+  background: #5f8de4;
+  color: rgb(228, 214, 27);
 }
