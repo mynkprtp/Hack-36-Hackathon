@@ -40,11 +40,11 @@ After submission of Details our will send you a mail which will contain the deta
 
 ## How it Works:
 
-A: User Details will be saved in Database
+- User Details will be saved in Database
 
-B: System and our team will Look for Hospitals by User Details
+- System and our team will Look for Hospitals by User Details
 
-C: If Details found then System will Send a mail to user which contains details of treatment.
+- If Details found then System will Send a mail to the User which will contain the details of treatment.
 
 
 ## Website Contains:
