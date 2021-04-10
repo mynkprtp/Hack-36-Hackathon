@@ -4,7 +4,7 @@
 <h3 align="left">Introduction:</h3>
 
 
-We have made a very simple desktop UI where an infected person can request for his/her treatment to near by Hospital just by filling the details.
+We have made a very simple desktop UI based web application where an infected person can request for his/her treatment to near by Hospital just by filling the details.
 After submission of Details our will send you a mail which will contain the details of treatment.
 
 
