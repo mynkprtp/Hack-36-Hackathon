@@ -28,11 +28,13 @@
           <div class="modal-body">
             <button data-dismiss="modal" class="close">&times;</button>
             <h2>Qurantine Me!!</h2>
-            <h2>Qurantine Me!!</h2>
             <form action="form.php" method="GET">
-              <input type="text" name="mail" class="username form-control" placeholder="Enter Your Email"/>
+              <input type="text" name="email" class="username form-control" placeholder="Enter Your Email"/>
+              <span class="error"><?php echo $emailError;?></span>
               <input type="text" name="name" class="username form-control" placeholder="Enter Your Name"/>
+              <span class="error"> <?php echo $nameErr;?></span>
               <input type="tel" name="mobile" class="username form-control" placeholder="Enter Your Mobile Number"/>
+              <span class="error"> <?php echo $mobileError;?></span>
               <input type="text" name="adress" class="username form-control" placeholder="Enter Your Full address"/>
               <input type="number" name="duration" class="username form-control" placeholder="Number of days of being Infected"/>
              <label for="Gender" style="float: left;">Gender: </label>
@@ -63,6 +65,7 @@
     $("#navbar").load("./components/nav.html");
   });
 </script>
+
 
 
 
