@@ -21,9 +21,9 @@ After submission of Details our will send you a mail which will contain the deta
 
 <h3 align="left">Team Members : </h3> 
 
- - [Vijay Gupta](https://github.com/vijaygupta18) 👨‍🎓
+ - 👨‍🎓   [Vijay Gupta](https://github.com/vijaygupta18) 
  
- - [Mayank Pratap](https://github.com/mynkprtp)  👨‍🎓
+ - 👨‍🎓   [Mayank Pratap](https://github.com/mynkprtp)  
 
 
 ###  [Click here to visit the site](https://pandemicure.herokuapp.com/)
@@ -32,13 +32,13 @@ After submission of Details our will send you a mail which will contain the deta
 
 ###  Details required from PERSON:
 
-+ Person's Name :student:
++ 👱‍♂️ Person's Name 
 
-+ Person's Email :e-mail:
++ ✉️  Person's Email 
 
-+ Complete Address :house:
++ 🏠  Complete Address 
 
-+ Phone Number :iphone:
++ ☎️  Phone Number 
 
 ## How it Works :
 
@@ -73,7 +73,7 @@ After submission of Details our will send you a mail which will contain the deta
 ![Contact](images/5.JPG)
 
 
-
+😄
 ```diff
-@@ Feel free  to contact us for PRs and Improvements in this project. @@
+@@ Feel free  to contact us for PRs and Improvements in this project. @@ 
 
