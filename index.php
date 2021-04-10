@@ -124,8 +124,6 @@
 
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script>
- 
-
   function stop() {
     document.getElementById("loader").style.display = "none";
   }
