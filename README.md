@@ -11,6 +11,10 @@
 We have made a very simple desktop UI based web application where an infected person can request for his/her treatment to near by Hospital just by filling the details.
 After submission of Details our system/team will send you a mail which will contain the details of treatment.
 
+Problem it Solves :It solves the problem of spreading of covid as the person will get all the details regarding his treatment at his quarantined home.
+
+Challenges :Some portions are incomplete due to less time.The website UI is for desktop only We will update soon for all device version.
+
 
 
 
@@ -34,6 +38,23 @@ After submission of Details our system/team will send you a mail which will cont
 
 
 
+
+## How it Works :
+
+- [ Visit the site](https://pandemicure.herokuapp.com/)
+
+- Click on I'm Infected.
+
+- Submit the details.
+
+- User Details will be saved in Database
+
+- System and our team will Look for Hospitals by User Details
+
+- If Details found then System will Send a mail to the User which will contain the details of treatment.
+
+
+
 ###  Details required from PERSON:
 
 + 👱‍♂️ Person's Name 
@@ -43,20 +64,6 @@ After submission of Details our system/team will send you a mail which will cont
 + 🏠  Complete Address 
 
 + ☎️  Phone Number 
-
-## How it Works :
-
-- [ Visit the site](https://pandemicure.herokuapp.com/)
-
--Click on I'm Infected.
-
-- Submit the details.
-
-- User Details will be saved in Database
-
-- System and our team will Look for Hospitals by User Details
-
-- If Details found then System will Send a mail to the User which will contain the details of treatment.
 
 
 ## Website Contains :
