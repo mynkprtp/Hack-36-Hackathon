@@ -11,9 +11,9 @@
 We have made a very simple desktop UI based web application where an infected person can request for his/her treatment to near by Hospital just by filling the details.
 After submission of Details our system/team will send you a mail which will contain the details of treatment.
 
-Problem it Solves :It solves the problem of spreading of covid as the person will get all the details regarding his treatment at his quarantined home.
+_Problem it Solves_ : It solves the problem of spreading of covid as the person will get all the details regarding his treatment at his quarantined home.
 
-Challenges :Some portions are incomplete due to less time.The website UI is for desktop only We will update soon for all device version.
+_Challenges_ : Some portions are incomplete due to less time.The website UI is for desktop only We will update soon for all device version.
 
 
 
