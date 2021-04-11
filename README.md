@@ -1,4 +1,5 @@
-# Hack-36-Hackathon 💻
+# Hack-36-Hackathon 💻 <a href="https://hack36.com"> <img src="http://bit.ly/BuiltAtHack36" height=20px> </a>
+
 
 
 <h3 align="left">Introduction:</h3>
@@ -45,6 +46,12 @@ After submission of Details our system/team will send you a mail which will cont
 
 ## How it Works :
 
+- [ Visit the site](https://pandemicure.herokuapp.com/)
+
+-Click on I'm Infected.
+
+- Submit the details.
+
 - User Details will be saved in Database
 
 - System and our team will Look for Hospitals by User Details
@@ -74,6 +81,9 @@ After submission of Details our system/team will send you a mail which will cont
 
 ![Contact](images/5.JPG)
 
+
+## Made at:
+<a href="https://hack36.com"> <img src="http://bit.ly/BuiltAtHack36" height=20px> </a>
 
 😄
 ```diff
